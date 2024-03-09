@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i7OPxIUutt7N68xXa8+M1uKFkeAWVITUEvi3dOABJ58=",
+  "Source": "login-back-end",
+  "BasePath": "_content/login-back-end",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

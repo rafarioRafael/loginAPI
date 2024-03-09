@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Estudos\\Projetos\\login-auth-v3\\LoginAPI\\back-end\\login-back-end\\login-back-end\\login-back-end.csproj": {}
+    "C:\\Estudos\\Projetos\\login-auth-v3\\login-back-end\\login-back-end\\login-back-end.csproj": {}
   },
   "projects": {
-    "C:\\Estudos\\Projetos\\login-auth-v3\\LoginAPI\\back-end\\login-back-end\\login-back-end\\login-back-end.csproj": {
+    "C:\\Estudos\\Projetos\\login-auth-v3\\login-back-end\\login-back-end\\login-back-end.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudos\\Projetos\\login-auth-v3\\LoginAPI\\back-end\\login-back-end\\login-back-end\\login-back-end.csproj",
+        "projectUniqueName": "C:\\Estudos\\Projetos\\login-auth-v3\\login-back-end\\login-back-end\\login-back-end.csproj",
         "projectName": "login-back-end",
-        "projectPath": "C:\\Estudos\\Projetos\\login-auth-v3\\LoginAPI\\back-end\\login-back-end\\login-back-end\\login-back-end.csproj",
+        "projectPath": "C:\\Estudos\\Projetos\\login-auth-v3\\login-back-end\\login-back-end\\login-back-end.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\Projetos\\login-auth-v3\\LoginAPI\\back-end\\login-back-end\\login-back-end\\obj\\",
+        "outputPath": "C:\\Estudos\\Projetos\\login-auth-v3\\login-back-end\\login-back-end\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
